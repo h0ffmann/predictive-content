@@ -1,0 +1,3 @@
+[submodule "submodules/openvoice"]
+	path = submodules/openvoice
+	url = git@github.com:h0ffmann/OpenVoice.git
