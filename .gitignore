@@ -1,0 +1,65 @@
+# --- Python Virtual Environments ---
+# Ignore the virtual environment directory created by uv, venv, etc.
+.venv/
+venv/
+ENV/
+env/
+
+# --- Python Cache & Bytecode ---
+# Ignore Python's cache directory and compiled files.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Generated Data & Output ---
+# Ignore the 'data' directory where downloaded books are stored.
+# The repository should contain the code to GET the data, not the data itself.
+data/
+
+# --- Build, Distribution, and Packaging ---
+# Ignore artifacts from building and distributing the package.
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- IDE & Editor Directories ---
+# Ignore configuration files from common editors and IDEs.
+.vscode/
+.idea/          # PyCharm
+*.sublime-project
+*.sublime-workspace
+
+# --- Testing & Coverage ---
+# Ignore artifacts from testing tools like pytest and coverage.
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# --- Operating System Specific Files ---
+# Ignore system files that can be created automatically.
+.DS_Store       # macOS
+Thumbs.db       # Windows
+ehthumbs.db     # Windows
+
+# --- Environment Variables ---
+# Ignore local environment variable files. Never commit secrets!
+.env
+.env.*
+!.env.example
+
+# --- Logs ---
+# Ignore log files.
+*.log
+logs/
+
+output.md
+dubbing_output
+checkpoints_v2/
+*.mp4
+.idea/
+outputs_v2
+processed/
